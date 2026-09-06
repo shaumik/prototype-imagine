@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111a20">
+  <meta name="description" content="A backseat daydream, made playable. Run alongside the car, leap across the roadside and fight with customizable weapons and power-ups across two stages.">
+  <title>Highway Phantom — A backseat daydream</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main class="app">
+  <header class="topbar">
+   <a class="brand" href="./" aria-label="Highway Phantom home"><span class="brand-mark">H<span>\</span>P</span><span>HIGHWAY PHANTOM</span></a>
+   <span class="build-label">A BACKSEAT DAYDREAM <span class="divider">/</span> TWO-STAGE DEMO · PIT STOP EDITION</span>
+   <div class="utilities">
+    <button id="sound" class="icon-button" aria-label="Enable sound" title="Sound"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path class="sound-waves" d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/><path class="sound-off" d="m16 9 6 6m0-6-6 6"/></svg></button>
+    <button id="pause" class="icon-button" aria-label="Pause game" title="Pause (Esc)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 5h3v14H7zm7 0h3v14h-3z"/></svg></button>
+    <button id="fullscreen" class="icon-button" aria-label="Enter fullscreen" title="Fullscreen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button>
+   </div>
+  </header>
+  <section class="game-stage" id="stage" aria-label="Highway Phantom game">
+   <canvas id="game" width="1600" height="900" tabindex="0" aria-label="Side-scrolling action game viewed through a car window. Up arrow to jump, Z for buster, tap or hold X for a three-hit blade combo, hold Up and press X to slash upward while jumping, Down and X in the air to pogo, Shift to dash, Left and Right to move, C for Flow burst when charged."></canvas>
+   <div class="film-grain" aria-hidden="true"></div>
+   <div class="menu" id="menu">
+    <div class="eyebrow"><span class="small-line"></span> SOMEWHERE ON THE WAY HOME</div>
+    <h1>HIGHWAY<br><span>PHANTOM</span><i>01</i></h1>
+    <p>The car keeps moving.<br>So does your imagination.</p>
+    <button id="start" class="start-button"><span class="play-icon">▶</span><span>TAKE THE WINDOW SEAT</span><span class="button-arrow">↗</span></button>
+    <div class="start-note" id="start-note">SPACE TO BEGIN <span>·</span> HEADPHONES RECOMMENDED</div>
+   </div>
+   <div class="scene-label" id="scene-label"><span>TWO STAGES · ONE RIDE</span><small>GOLDEN HOUR <b>—</b> ROUTE 07</small></div>
+   <div class="hud hidden" id="hud">
+    <div class="health-panel"><div class="hud-eyebrow"><span id="chassis-name">PHANTOM</span> <span id="combo"></span></div><div id="health" class="health-segments"></div><div class="dash-meter"><span id="dash-fill"></span></div><small>DASH CAPACITOR</small><div class="blade-chain" id="blade-chain"><i></i><i></i><i></i><span id="chain-name">BLADE READY</span></div></div>
+    <div class="speed-panel"><span id="speed">096</span><small>KM/H</small><div id="state-label">KEEP PACE</div></div>
+   </div>
+   <div class="loot-panel hidden" id="loot-panel"><small>SALVAGE</small><strong><span id="scrap-count">0</span> <em>SCRAP</em></strong><span id="streak-label">BUILD YOUR CHAIN</span></div>
+   <button id="flow-button" class="flow-button hidden" disabled><span><b id="flow-label">FLOW</b><kbd>C</kbd></span><i><b id="flow-fill"></b></i><small id="flow-hint">FIGHT · PARRY · COLLECT</small></button>
+   <div id="encounter-cue" class="encounter-cue" role="status"></div>
+   <div class="boss-hud hidden" id="boss-hud"><div><span id="boss-name">SIGNAL WARDEN</span> <span id="boss-percent">100%</span></div><div class="boss-track"><span id="boss-fill"></span></div></div>
+   <div id="power-toast" class="power-toast" role="status"></div><div id="active-buffs" class="active-buffs"></div>
+   <div id="announcement" class="announcement" aria-live="polite"></div>
+   <div class="intro hidden" id="intro"><img src="assets/backseat.jpg" alt="A child looking through the car window at sunset"><div class="intro-shade"></div><p>On the way home,<br><em>the world became a game.</em></p><button id="skip">SKIP INTRO ↗</button></div>
+   <div class="modal hidden" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-card"><div class="eyebrow" id="modal-eyebrow">TAKE A BREATH</div><h2 id="modal-title">DAYDREAM PAUSED</h2><p id="modal-description">The road will be here.</p><button class="start-button" id="resume">BACK TO THE WINDOW <span>→</span></button><button class="text-button" id="restart">RESTART STAGE</button></div></div>
+   <section id="workshop" class="workshop hidden" aria-labelledby="workshop-title">
+    <header class="workshop-header"><div><div id="workshop-status" class="workshop-eyebrow"></div><h2 id="workshop-title">Make it yours.</h2><p id="workshop-next"></p></div><button id="launch-stage" class="start-button">LAUNCH STAGE 02 →</button></header>
+    <div id="run-results" class="run-results"></div><div class="shop-balance"><span>YOUR GARAGE</span><strong><span id="shop-wallet">0</span> <small>SCRAP AVAILABLE</small></strong></div>
+    <div class="workshop-body"><aside class="build-panel"><div id="preview-label" class="preview-label">CURRENT BUILD</div><canvas id="build-preview" width="330" height="270" aria-label="Preview of your equipped character"></canvas><h3 id="build-name"></h3><p id="build-stats"></p><p id="build-summary"></p><button type="button" id="test-build" class="test-build">TEST BLADE / BUSTER ↗</button><p class="workshop-note">Earn scrap on the road. Buy parts here. Your build carries into the next stage.</p></aside><div class="shop-inventory"><nav id="shop-tabs" class="shop-tabs" aria-label="Equipment slots"></nav><div id="equipment-options" class="equipment-grid"></div><div class="part-detail"><div><h3 id="part-name"></h3><p id="part-description"></p></div><button id="buy-part" class="start-button">BUY & EQUIP</button></div><p id="shop-message" class="shop-message" role="status">Select a part to preview it on your runner.</p></div></div>
+   </section>
+   <div class="ride-footer"><div class="ride-caption"><span class="record-light"></span><span id="ride-text">PASSENGER SIDE</span><span class="ride-divider">/</span><span id="distance">00.00 KM</span></div><div class="route-track"><span id="route-fill"></span><i></i><i></i><i></i></div><span class="chapter" id="stage-label">01 / 02 · THE LONG WAY HOME</span></div>
+   <div class="touch-controls" id="touch-controls"><div><button data-action="left" aria-label="Move left">←</button><button data-action="right" aria-label="Move right">→</button><button data-action="up" aria-label="Hold and press blade to slash upward">↑</button></div><div><button data-action="shoot">FIRE</button><button data-action="slash" aria-label="Hold for a three-hit blade combo">BLADE</button><button data-action="pogo" aria-label="Downward aerial strike">POGO</button><button data-action="flow" class="touch-flow">FLOW</button><button data-action="dash">DASH</button><button data-action="jump" class="touch-jump">JUMP</button></div></div>
+  </section>
+  <footer class="bottom-bar"><div class="control-list"><span><kbd>↑</kbd> Jump <b>×2</b></span><span><kbd>Z</kbd> <span id="fire-control">Buster</span></span><span title="Tap X in rhythm, or hold to chain all three hits"><kbd>X</kbd> <span id="blade-control">Combo</span> <b>×3</b></span><span><kbd>↑ X</kbd> Upslash</span><span><kbd>↓ X</kbd> Pogo</span><span><kbd>SHIFT</kbd> Dash</span><span><kbd>← →</kbd> Move</span><span><kbd>C</kbd> Flow burst</span></div><span class="bottom-note">FIGHT. SALVAGE. EVOLVE.</span></footer>
+ </main>
+ <script type="module" src="game.js"></script>
+</body>
+</html>
