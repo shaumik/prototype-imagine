@@ -2,13 +2,13 @@
 
 A playable Godot action game about the imaginary runner outside your childhood car window.
 
-## Current Blender helmet study
+## Current Blender torso checkpoint
 
-The editable model is [outputs/Phantom_Reference_Manual.blend](outputs/Phantom_Reference_Manual.blend), saved in Blender 5.2 with its reference images packed into the file. It opens with the helmet isolated; toggle Local View to inspect the rest of the mech blockout. The helmet has received front, side, and three-quarter verification passes; the body and weapons are still earlier studies.
+The editable mech is [outputs/Phantom_Reference_Manual.blend](outputs/Phantom_Reference_Manual.blend), saved in Blender 5.2.1. This checkpoint focuses on the torso: narrowed recessed chest intakes, a wider brass bridge, layered gray armor, a green center shield, and a tapered waist crest. The model opens on the angled torso camera. Geometry and materials were edited through Blender's interface and checked in front and angled Cycles renders.
 
-Latest renders: [front](outputs/Phantom_Helmet_Front_Refined.png), [side profile](outputs/Phantom_Helmet_Profile_Refined.png), and [three-quarter view](outputs/Phantom_Helmet_Hero_Refined.png). The approved [construction guide](outputs/phantom_mech_revision6/construction_guide.png) and previous modeling studies are retained in `outputs/`.
+Latest torso renders: [front](outputs/Phantom_Torso_Front_Pass06.png) and [three-quarter view](outputs/Phantom_Torso_Hero_Pass06.png). The approved [construction guide](outputs/phantom_mech_revision6/construction_guide.png) and earlier helmet studies are retained in `outputs/`.
 
-![Refined helmet](outputs/Phantom_Helmet_Hero_Refined.png)
+![Torso checkpoint](outputs/Phantom_Torso_Hero_Pass06.png)
 
 ## Play
 

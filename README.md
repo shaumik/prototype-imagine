@@ -6,7 +6,7 @@ A two-stage car-window action runner. The original illustrated Phantom runner, r
 
 The separate [Godot prototype](godot/README.md) includes its gameplay source, assets, tests, and mech modeling studies. Open [godot/project.godot](godot/project.godot) in Godot 4.6 or later.
 
-The latest editable helmet is [Phantom_Reference_Manual.blend](godot/outputs/Phantom_Reference_Manual.blend), with reference images packed in Blender 5.2. View the refined [front](godot/outputs/Phantom_Helmet_Front_Refined.png), [side](godot/outputs/Phantom_Helmet_Profile_Refined.png), and [three-quarter](godot/outputs/Phantom_Helmet_Hero_Refined.png) renders. The remaining mech is still a blockout.
+The latest editable mech is [Phantom_Reference_Manual.blend](godot/outputs/Phantom_Reference_Manual.blend), saved in Blender 5.2.1. The current checkpoint refines the torso's chest intakes, layered armor, green center shield, and waist connection. View the checked [front](godot/outputs/Phantom_Torso_Front_Pass06.png) and [three-quarter](godot/outputs/Phantom_Torso_Hero_Pass06.png) torso renders. Earlier helmet studies remain in `godot/outputs/`.
 
 ## Play
 
