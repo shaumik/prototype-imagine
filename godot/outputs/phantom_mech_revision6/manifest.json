@@ -1,0 +1,22 @@
+{
+  "native_scene": "Phantom_Revision6.blend",
+  "mesh_objects": 420,
+  "packed_reference_images": 5,
+  "actual_blender_renders": [
+    "blender_side.png",
+    "blender_front.png",
+    "blender_hero.png",
+    "blender_head.png",
+    "blender_head_side.png",
+    "blender_wrist.png",
+    "blender_rear.png",
+    "blender_side_clay.png",
+    "blender_hero_clay.png"
+  ],
+  "ai_design_reference": "construction_guide.png",
+  "image_generation_method": "built-in image generation tool",
+  "image_prompt": "construction_prompt.txt",
+  "calf_main_shell_max_depth": 0.64,
+  "blade_width_max": 0.245,
+  "blade_length": 2.36
+}

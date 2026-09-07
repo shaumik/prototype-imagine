@@ -1,0 +1,12 @@
+{
+  "mesh_objects": 495,
+  "materials": 19,
+  "cameras": 5,
+  "render_seconds": 1544,
+  "renders": [
+    "phantom_hero.png",
+    "phantom_rear.png",
+    "phantom_detail.png",
+    "phantom_front.png"
+  ]
+}

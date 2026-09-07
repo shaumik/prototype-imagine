@@ -1,0 +1,17 @@
+{
+  "scene": "Phantom_Traced.blend",
+  "mesh_objects": 405,
+  "mesh_vertices": 126769,
+  "reference_images_packed": 4,
+  "render_views": [
+    "front",
+    "side",
+    "rear",
+    "hero",
+    "clay",
+    "face",
+    "hand"
+  ],
+  "image_projection_enabled": false,
+  "paired_wrist_blades": true
+}

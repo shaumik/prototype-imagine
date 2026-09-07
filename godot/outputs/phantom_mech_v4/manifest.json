@@ -1,0 +1,19 @@
+{
+  "revision": 4,
+  "renders": [
+    "phantom_v4_hero.png",
+    "phantom_v4_front.png",
+    "phantom_v4_head.png",
+    "phantom_v4_hand.png",
+    "phantom_v4_blade.png",
+    "phantom_v4_cannon.png"
+  ],
+  "last_render_seconds": 174,
+  "mesh_objects": 925,
+  "packed_references": [
+    "face_reference.jpg",
+    "hand_reference.jpg",
+    "parts_design_guide.png",
+    "reference.jpg"
+  ]
+}

@@ -2,6 +2,12 @@
 
 A two-stage car-window action runner. The original illustrated Phantom runner, roadside parallax, and red-light boss framing remain.
 
+## Godot prototype and Blender models
+
+The separate [Godot prototype](godot/README.md) includes its gameplay source, assets, tests, and mech modeling studies. Open [godot/project.godot](godot/project.godot) in Godot 4.6 or later.
+
+The latest editable helmet is [Phantom_Reference_Manual.blend](godot/outputs/Phantom_Reference_Manual.blend), with reference images packed in Blender 5.2. View the refined [front](godot/outputs/Phantom_Helmet_Front_Refined.png), [side](godot/outputs/Phantom_Helmet_Profile_Refined.png), and [three-quarter](godot/outputs/Phantom_Helmet_Hero_Refined.png) renders. The remaining mech is still a blockout.
+
 ## Play
 
 - Arrow keys: move; Up: jump / double jump (triple jump with Phantom Wings).

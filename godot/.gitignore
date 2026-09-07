@@ -1,0 +1,13 @@
+.godot/
+*.avi
+*.wav.import
+.DS_Store
+build/
+captures/raw/
+__pycache__/
+*.py[cod]
+*.blend[0-9]*
+outputs/*.zip
+outputs/**/*.zip
+outputs/*.log
+outputs/**/*.log

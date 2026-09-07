@@ -1,0 +1,16 @@
+{
+  "revision": 3,
+  "files": [
+    "phantom_v3_hero.png",
+    "phantom_v3_face.png",
+    "phantom_v3_hand.png",
+    "phantom_v3_cannon.png"
+  ],
+  "render_seconds": 320,
+  "mesh_objects": 931,
+  "packed_references": [
+    "face_reference.jpg",
+    "hand_reference.jpg",
+    "reference.jpg"
+  ]
+}
