@@ -1,53 +1,36 @@
-# Phantom assembly refinement — September 7 checkpoint
+# Phantom assembly refinement — recovered September 12
 
-Work in progress: cannons, shoulders, and backpack refined manually through Blender's interface, using repeated actual-model renders and comparison with the [construction guide](../phantom_mech_revision6/construction_guide.png). No Python, Blender scripts, or generated geometry were used for this refinement session.
+Work is unfinished. Resume the late-pass model from [checkpoints/Phantom_Reference_Manual.blend](checkpoints/Phantom_Reference_Manual.blend) or the repository's [canonical model](../Phantom_Reference_Manual.blend), which are identical. Pass30 is superseded. On the original Mac workspace, the root `outputs/Phantom_Reference_Manual.blend` remains the older approved torso file; use the refinement checkpoint path there.
 
-## Continue from here
+The workspace directory was absent when work resumed on September12; its disappearance has not been explained. The full published repository was freshly downloaded to `/Users/shaumikmondal/programming/prototype-imagination/recovered_published_repository` and verified at commit `93eb9017122360cc03003f23caef1d5df4c62fac`, with clean status and successful Git integrity verification. Published Godot files were restored without overwriting recovery files. The root `outputs/Phantom_Reference_Manual.blend` was restored from the approved torso checkpoint, preserving the original local-file distinction.
 
-- [Editable working model](checkpoints/Phantom_Reference_Manual.blend)
-- [Recoverable Pass30 checkpoint](checkpoints/Phantom_Assemblies_Pass30_Verification_Set.blend), identical to the working model
-- [Approved torso checkpoint](checkpoints/Phantom_Approved_Torso_d9aafd5_00.blend), preserved from commit `d9aafd5f046124d7f67f203bc568b5a9111dc64d`
-- [Detailed restart notes](RESUME_NOTES.md); older entries describe intermediate and discarded work, so start with the final pause section
+## Recovered recent work
 
-The GitHub publication also updates `godot/outputs/Phantom_Reference_Manual.blend` to the working model. On the original Mac workspace, `outputs/Phantom_Reference_Manual.blend` remains the approved source; continue local modeling from this folder's `checkpoints/Phantom_Reference_Manual.blend`.
+- Live Blender scene saved through its UI as [Phantom_Live_Recovery_20260912.blend](checkpoints/Phantom_Live_Recovery_20260912.blend), with a second backup outside this workspace.
+- Separately secured autosave in [recovery_20260912](recovery_20260912/RECOVERY_NOTES.md), also backed up outside this workspace.
+- UI validation confirmed object96's four innermost shoulder fasteners have median(-0.14,0.067001,7.8), matching the last documented Pass74 correction.
+- UI validation confirmed object95's Y dimension approximately1.27 and mesh median(2.8228,0.065405,7.9531), matching the shortened and inward-seated return covers from Pass70/72.
+- The retained actual rear render was exported, inspected, and verified to have exactly the same SHA256 as the saved Sept9 Pass74 image.
+- All14 generated supplementary references survived and were backed up. They remain construction studies, never actual-model verification.
 
-## Saved changes
+## Actual model evidence
 
-- Cannons point forward with an 8-degree upward pitch, with recessed four-bore muzzles, layered housings, corrected paired bearings, and clearance cavities behind the rear service recesses.
-- Shoulders have thicker teal and brass layers, swept top coverage, rear armor, underside fins, and graphite root guards with fasteners.
-- Backpack has a raised rear panel, octagonal brass surround and power emblem, tapered vent pods, layered covers, hollow angled exhausts, and a recessed lower grille.
+[Recovered Pass74 rear render](renders/Phantom_Shoulders_Rear_Pass74_Recovered.png), 2000x1600,128Cycles samples. SHA256 `c78368141e3711d293b2bfe8481338db3ef92103099c774eb1ec8ab62e445e49`.
 
-Approved torso and helmet work was preserved. The original approved model and torso renders are retained for comparison.
+![Actual recovered rear render](renders/Phantom_Shoulders_Rear_Pass74_Recovered.png)
 
-## Actual verification renders
+[New actual side render](renders/Phantom_Assemblies_Side_Recovery_20260912.png), rendered from the recovered model at2000x1600/128Cycles samples, exported and visually inspected. SHA256 `1eb6acb8e85d95d07a4e10eff96b9fe189957bee6a33ccfd0a871868b7641235`. Older published renders through Pass29 are historical evidence, not verification of current shoulder/cannon geometry. Unpublished intermediate checkpoints31–74 and most corresponding renders have not been recovered; don't imply otherwise.
 
-These are actual Blender renders at 2000 × 1600, using Cycles with 128 samples. They document the paused work and are not a claim of final AAA quality.
+Latest editable and matching [verified recovery checkpoint](checkpoints/Phantom_Recovery_20260912_Verified.blend) share SHA256 `00aac2039a65410a373e7b313f75c1f49a96685f086eadb7ccda5809d75798ee`. A third matching copy exists outside this workspace. Blender's resource-packing command reported no new files to pack. No geometry, material, light or camera-transform edits were made during this recovery; the existing side camera was activated for the new render.
 
-| View | Image |
-| --- | --- |
-| Front | [Pass29](renders/Phantom_Assemblies_Front_Pass29.png) |
-| Rear | [Pass29](renders/Phantom_Assemblies_Rear_Pass29.png) |
-| Three-quarter | [Pass29](renders/Phantom_Assemblies_Hero_Pass29.png) |
+## Next modeling work
 
-![Actual Blender three-quarter render](renders/Phantom_Assemblies_Hero_Pass29.png)
+Continue UI-only modeling and rendering. Preserve approved torso and helmet. Cannon51 refinements were retained; shoulder74 still needs correction of the pale outer tip, oblique inspection of return-cover transitions, and inner/underside mount checks. The backpack remains too pale and blocky, with the two discs beside the exhausts still requiring identification. Continue assembly comparisons against the [original guide](../phantom_mech_revision6/construction_guide.png), then regenerate front, side, rear, hero, and necessary close-ups. No AAA/final claim is justified.
 
-The latest side view was rendered and inspected, but its exported file was overwritten during the rear export. The correctly identified rear image is saved under its rear filename. Regenerate the latest side view; the older [Side23 draft](renders/Phantom_Assemblies_Side_Pass23_Draft.png) predates the pod taper and final material changes.
+Read the final recovery section of [RESUME_NOTES.md](RESUME_NOTES.md) and [RECOVERY_NOTES.md](recovery_20260912/RECOVERY_NOTES.md). Older published sections describe superseded work through Pass30.
 
-## Remaining work
+## Remote checkpoint practice
 
-1. Compare cannon inner-side panel construction against the guide; the current inner faces are simpler than the outer faces.
-2. Resolve overly bright cannon housing highlights in the three-quarter view without changing approved torso or helmet materials.
-3. Inspect finer backpack mechanical connections, including the two small discs beside the exhausts.
-4. Regenerate the latest high-resolution side image and continue close-up comparisons for intersections, normals, shading, and attachment details.
+The user wants recoverable work pushed to GitHub during refinement. After each meaningful saved pass, publish a versioned editable checkpoint, the current canonical model, available verified renders, and updated restart notes. Verify the remote commit before continuing substantial work. A local save or a prepared commit alone is not a remote backup. Keep failed experiments and generated references clearly labeled; do not claim missing images are current verification.
 
-Continue all Blender modeling, materials, lighting, camera adjustments, and rendering through computer use. Earlier checkpoint files include experiments and known defects; use Pass30 to resume.
-
-## File verification
-
-SHA-256 of the working model and Pass30 checkpoint:
-
-`31f46aa9597fd724430bc8a6e0d54f6addcae42b2e660cfbb6dd5fd4fc15f050`
-
-SHA-256 of the approved torso checkpoint:
-
-`2da7a2e05bd5afdfa585c5f5299be445180f3a5d24bfc2d94787de2319d37f89`
+This recovery publication includes the original autosave, the first live recovery save, the validated final checkpoint, two actual renders, all14 generated supplementary references, and restart notes. [SHA256SUMS.txt](recovery_20260912/SHA256SUMS.txt) records model and image checksums relative to the repository root.
