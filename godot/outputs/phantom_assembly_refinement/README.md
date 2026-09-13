@@ -2,13 +2,17 @@
 
 Latest geometry checkpoint: [Phantom_Shoulders_Pass76_Tapered_Shell.blend](checkpoints/Phantom_Shoulders_Pass76_Tapered_Shell.blend), matching current canonical on publication. See [PASS76_NOTES.md](PASS76_NOTES.md). Coherent outer depth taper and thinner front/rear brass fascia are verified in actual [hero76](renders/Phantom_Shoulders_Hero_Pass76.png) and [side76](renders/Phantom_Shoulders_Side_Pass76.png), both2000x1600/128Cycles. The upper shell and root remain boxy and require substantial reshaping toward the generated reference. Work remains unfinished.
 
-## Current refinement checkpoint
+## Pass77 interrupted by Mac lock
+
+The live Blender scene contains unsaved shoulder-shell reconstruction. Read [the interruption notes](interrupted_pass77_20260913/INTERRUPTED_PASS77_NOTES.md) before resuming: save the live scene separately immediately after unlock. A recent autosave is preserved in that folder but has not been opened or visually verified. Both canonical models remain the verified Pass76 checkpoint. There is no actual Pass77 render yet.
+
+## Historical Pass75 checkpoint
 
 Pass75 corrects the washed-out exposed shoulder returns using a separate material and object-specific fill. See [PASS75_NOTES.md](PASS75_NOTES.md) for diagnosis, failed trials and current verification. The model's geometry remains the recovered late-pass geometry: shoulders are still boxy in depth, brass edges too thick, and the backpack pale and bulky. The generated studies have not yet been adequately translated into those forms. No finished-quality claim is warranted.
 
 New actual front and hero baselines are `renders/Phantom_Assemblies_Front_PrePass75.png` and `renders/Phantom_Assemblies_Hero_PrePass75.png`. New Pass75 side and rear evidence belongs to this material/light pass; all are 2000 × 1600 with 128 Cycles samples. TrialA/TrialB files are labeled experiments. Generated construction studies15–17 and their critiques remain separately labeled in `supplementary_references`.
 
-The intended current editable remains [checkpoints/Phantom_Reference_Manual.blend](checkpoints/Phantom_Reference_Manual.blend), matched to versioned `Phantom_Shoulders_Pass75_Exposed_Return_Finish.blend` upon checkpoint publication. The local root torso file remains untouched. Read the latest section of [RESUME_NOTES.md](RESUME_NOTES.md), then the historical recovery details below.
+At Pass75 publication, [checkpoints/Phantom_Reference_Manual.blend](checkpoints/Phantom_Reference_Manual.blend) matched versioned `Phantom_Shoulders_Pass75_Exposed_Return_Finish.blend`; Pass76 has since superseded it. The local root torso file remains untouched. Read the latest section of [RESUME_NOTES.md](RESUME_NOTES.md), then the historical recovery details below.
 
 ## September12 recovery history
 
