@@ -1,6 +1,16 @@
-# Phantom assembly refinement — recovered September 12
+# Phantom assembly refinement — Pass75, September 13 UTC
 
-Work is unfinished. Resume the late-pass model from [checkpoints/Phantom_Reference_Manual.blend](checkpoints/Phantom_Reference_Manual.blend) or the repository's [canonical model](../Phantom_Reference_Manual.blend), which are identical. Pass30 is superseded. On the original Mac workspace, the root `outputs/Phantom_Reference_Manual.blend` remains the older approved torso file; use the refinement checkpoint path there.
+## Current refinement checkpoint
+
+Pass75 corrects the washed-out exposed shoulder returns using a separate material and object-specific fill. See [PASS75_NOTES.md](PASS75_NOTES.md) for diagnosis, failed trials and current verification. The model's geometry remains the recovered late-pass geometry: shoulders are still boxy in depth, brass edges too thick, and the backpack pale and bulky. The generated studies have not yet been adequately translated into those forms. No finished-quality claim is warranted.
+
+New actual front and hero baselines are `renders/Phantom_Assemblies_Front_PrePass75.png` and `renders/Phantom_Assemblies_Hero_PrePass75.png`. New Pass75 side and rear evidence belongs to this material/light pass; all are 2000 × 1600 with 128 Cycles samples. TrialA/TrialB files are labeled experiments. Generated construction studies15–17 and their critiques remain separately labeled in `supplementary_references`.
+
+The intended current editable remains [checkpoints/Phantom_Reference_Manual.blend](checkpoints/Phantom_Reference_Manual.blend), matched to versioned `Phantom_Shoulders_Pass75_Exposed_Return_Finish.blend` upon checkpoint publication. The local root torso file remains untouched. Read the latest section of [RESUME_NOTES.md](RESUME_NOTES.md), then the historical recovery details below.
+
+## September12 recovery history
+
+Work is unfinished. Resume the late-pass model from [checkpoints/Phantom_Reference_Manual.blend](checkpoints/Phantom_Reference_Manual.blend), not Pass30 and not the root outputs model.
 
 The workspace directory was absent when work resumed on September12; its disappearance has not been explained. The full published repository was freshly downloaded to `/Users/shaumikmondal/programming/prototype-imagination/recovered_published_repository` and verified at commit `93eb9017122360cc03003f23caef1d5df4c62fac`, with clean status and successful Git integrity verification. Published Godot files were restored without overwriting recovery files. The root `outputs/Phantom_Reference_Manual.blend` was restored from the approved torso checkpoint, preserving the original local-file distinction.
 
@@ -29,8 +39,8 @@ Continue UI-only modeling and rendering. Preserve approved torso and helmet. Can
 
 Read the final recovery section of [RESUME_NOTES.md](RESUME_NOTES.md) and [RECOVERY_NOTES.md](recovery_20260912/RECOVERY_NOTES.md). Older published sections describe superseded work through Pass30.
 
-## Remote checkpoint practice
+## GitHub backup verified
 
-The user wants recoverable work pushed to GitHub during refinement. After each meaningful saved pass, publish a versioned editable checkpoint, the current canonical model, available verified renders, and updated restart notes. Verify the remote commit before continuing substantial work. A local save or a prepared commit alone is not a remote backup. Keep failed experiments and generated references clearly labeled; do not claim missing images are current verification.
+[Recovery commit3c85a55](https://github.com/shaumik/prototype-imagine/commit/3c85a551911d47acaee6ecba24f2f83754a8425e) is published on main. Both repository canonical models are current; the local root outputs model remains approved torso00. All22 published model/image files were downloaded back from GitHub and matched their SHA256 checksums. The publication also includes restart notes and the original autosave.
 
-This recovery publication includes the original autosave, the first live recovery save, the validated final checkpoint, two actual renders, all14 generated supplementary references, and restart notes. [SHA256SUMS.txt](recovery_20260912/SHA256SUMS.txt) records model and image checksums relative to the repository root.
+Push and verify each meaningful saved refinement pass as work proceeds. Local saves alone do not satisfy the user's checkpoint-backup priority.

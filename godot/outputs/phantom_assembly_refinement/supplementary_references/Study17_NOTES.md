@@ -1,0 +1,7 @@
+# Generated study17 — construction extrapolation, not a Blender render
+
+File: `Study17_Shoulder_Depth_GENERATED.png`. Made with the built-in imagegen tool using the original construction guide as guidance.
+
+Prompt: Show one Phantom shoulder from an elevated outer-end three-quarter angle high enough to clarify the roof and front/rear depth. Preserve the original thin swept wing silhouette, dark desaturated teal two-panel armor, restrained brass lower fascia and graphite foundation. Extrapolate a coherent front-to-back taper from the inboard mount toward the outboard tip, with joined layers, modest chamfers, thin front/rear fascia, a restrained tip return, recessed underside and connected support tabs. Keep the inboard panel compact. Neutral lighting, gray background; no extra weapons, vents, screws, ornamental fins, diamond caps, hollow hooks, weathering or changes to torso/helmet. Label GENERATED CONSTRUCTION STUDY 17.
+
+Critique: The taper and continuous thin fascia return are useful as a construction concept. The generated inboard housing and joint remain enlarged; reject those proportions. The image fails to expose both front/rear edges fully, and the underlying tabs are concealed, so it does not verify those connections. Do not copy its apparent downward sweep: the original guide and approved model front/rear XZ silhouette remain authoritative. Use only the depth-taper concept, then verify actual model geometry and all adjacent layers from multiple angles.

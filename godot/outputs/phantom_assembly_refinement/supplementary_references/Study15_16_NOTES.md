@@ -1,0 +1,15 @@
+# Generated construction studies 15–16 — September 13 UTC
+
+These are generated references, not Blender model renders. The original `../../phantom_mech_revision6/construction_guide.png` remains the design authority. Both were made with the built-in imagegen tool using that guide as image guidance.
+
+## Study15_Cannon_Construction_GENERATED.png
+
+Prompt: Create a high-resolution three-panel close-up of one identical Phantom shoulder cannon and pivot strut: outer-side three-quarter, inner-facing underside three-quarter, and straight muzzle. Preserve the original guide's proportions, teal segmented rectangular armor, graphite collars, understated brass, four small round recessed bores arranged one top/two middle/one bottom, circular pivot and mechanically attached rear support. Show deep openings, layered housing, an inner service recess and solid connecting brackets. No extra fins, cables, barrels or ornamental details. Identical geometry between views, forward arrows, neutral gray background and soft neutral illumination. Label GENERATED CONSTRUCTION STUDY 15. Isolate the assembly and preserve torso/helmet design.
+
+Critique: The four-bore pattern and layered pivot are consistent with the original guide. The forward arrows are wrong: the first cannon fires toward image-left; the third points toward the viewer. Reject all arrows. Inner and outer panel layouts drift, the brass zigzag is exaggerated, and the support changes between the oblique and frontal panels. Do not use this sheet as a dimensioned turnaround or copy the invented details. Existing cannon construction must be checked on the actual model before any change.
+
+## Study16_Shoulder_Transition_GENERATED.png
+
+Prompt: One high-resolution close-up of the original Phantom right shoulder from a rear/outside three-quarter angle just below shoulder height. Preserve the wide swept wing silhouette, two divided dark teal panels ascending toward a thin tip, narrow muted brass lower band, graphite underside and dark shoulder joint with connected mounting tabs. Clarify the outer tip return, front-to-back taper, and underside attachments. Front/rear brass fascia should be thin sheets with restrained short returns, not deep vertical blocks or a large gold wall. Avoid hollow hooks, diamond end caps, floating plates, arbitrary vents, glow and boxy shells. Neutral soft light and medium gray background; crop to the shoulder and upper-arm joint. Label GENERATED CONSTRUCTION STUDY 16. This is an extrapolation of obscured construction, not a current-model render.
+
+Critique: Useful evidence for restrained sheet thickness, a graphite underside and a short outer brass return. Reject the enlarged inner teal/root panel, oversized exposed joint ring and added gold tip cap; these depart from the original. The view does not fully resolve the requested underside or front-to-back taper, so those details require actual oblique/inner inspection and further studies as needed. Do not alter the approved upper arm to match this generated image.
