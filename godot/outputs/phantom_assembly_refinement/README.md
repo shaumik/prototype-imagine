@@ -1,4 +1,6 @@
-# Phantom assembly refinement — Pass75, September 13 UTC
+# Phantom assembly refinement — Pass76, September 13 UTC
+
+Latest geometry checkpoint: [Phantom_Shoulders_Pass76_Tapered_Shell.blend](checkpoints/Phantom_Shoulders_Pass76_Tapered_Shell.blend), matching current canonical on publication. See [PASS76_NOTES.md](PASS76_NOTES.md). Coherent outer depth taper and thinner front/rear brass fascia are verified in actual [hero76](renders/Phantom_Shoulders_Hero_Pass76.png) and [side76](renders/Phantom_Shoulders_Side_Pass76.png), both2000x1600/128Cycles. The upper shell and root remain boxy and require substantial reshaping toward the generated reference. Work remains unfinished.
 
 ## Current refinement checkpoint
 
