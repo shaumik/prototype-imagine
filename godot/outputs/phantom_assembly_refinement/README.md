@@ -1,4 +1,10 @@
-# Phantom assembly refinement — Pass76, September 13 UTC
+# Phantom assembly refinement — Pass77
+
+Current saved model: [Phantom_Shoulders_Pass77_Continuous_Armor.blend](checkpoints/Phantom_Shoulders_Pass77_Continuous_Armor.blend), matching the canonical checkpoint. The shoulders now have continuous tapered wing shells, sloped root caps and corrected planar faces. Actual [hero77](renders/Phantom_Shoulders_Hero_Pass77.png) and [side77](renders/Phantom_Shoulders_Side_Pass77.png) are exported and verified at2000x1600/128Cycles. See [PASS77_NOTES.md](PASS77_NOTES.md) for retained geometry, rejected TrialA, hashes and remaining differences. Root detail, inner/underside verification and backpack refinement remain unfinished.
+
+The Mac lock interruption was resolved after the user unlocked it. Live interrupted geometry was saved separately before editing; the earlier interruption notes below are historical.
+
+## Historical Pass76 checkpoint
 
 Latest geometry checkpoint: [Phantom_Shoulders_Pass76_Tapered_Shell.blend](checkpoints/Phantom_Shoulders_Pass76_Tapered_Shell.blend), matching current canonical on publication. See [PASS76_NOTES.md](PASS76_NOTES.md). Coherent outer depth taper and thinner front/rear brass fascia are verified in actual [hero76](renders/Phantom_Shoulders_Hero_Pass76.png) and [side76](renders/Phantom_Shoulders_Side_Pass76.png), both2000x1600/128Cycles. The upper shell and root remain boxy and require substantial reshaping toward the generated reference. Work remains unfinished.
 
