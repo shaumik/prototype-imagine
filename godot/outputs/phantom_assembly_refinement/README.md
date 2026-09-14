@@ -1,4 +1,10 @@
-# Phantom assembly refinement — Pass77
+# Phantom assembly refinement — Pass78, unfinished checkpoint
+
+Current saved model: [Phantom_Shoulders_Pass78_Mount_Verification.blend](checkpoints/Phantom_Shoulders_Pass78_Mount_Verification.blend), matching both canonical publication paths. The user requested direct reference-overlay tracing. This exposed and corrected the shoulder root cap's flat, overly high inner roof contour. The wing now follows the brass fascia with a narrow seam. Actual [hero78](renders/Phantom_Shoulders_Hero_Pass78.png) verifies the current shape at2000x1600/128Cycles, but exposes a rough cap roof transition that must be rebuilt. This is a recoverable work checkpoint, not a finished model.
+
+[Inner mount78](renders/Phantom_Shoulders_Inner_Mounts_Pass78.png) shows a solid guard bridge, heavily shadowed, with only the closest tab visible. [Rear trial78](renders/Phantom_Shoulders_Rear_Pass78_TrialA.png) is explicitly PRE-TRACE geometry; it does not verify the latest cap. Read [PASS78_NOTES.md](PASS78_NOTES.md) for exact geometry, reference alignment, control recovery and remaining work. Next: reconstruct the cap roof cleanly, render current hero/rear/side, then refine the pale bulky backpack using original-guide overlays and generated Study20 (known contradictions documented).
+
+## Historical Pass77 checkpoint
 
 Current saved model: [Phantom_Shoulders_Pass77_Continuous_Armor.blend](checkpoints/Phantom_Shoulders_Pass77_Continuous_Armor.blend), matching the canonical checkpoint. The shoulders now have continuous tapered wing shells, sloped root caps and corrected planar faces. Actual [hero77](renders/Phantom_Shoulders_Hero_Pass77.png) and [side77](renders/Phantom_Shoulders_Side_Pass77.png) are exported and verified at2000x1600/128Cycles. See [PASS77_NOTES.md](PASS77_NOTES.md) for retained geometry, rejected TrialA, hashes and remaining differences. Root detail, inner/underside verification and backpack refinement remain unfinished.
 
