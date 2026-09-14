@@ -1,0 +1,35 @@
+# Pass79 — foundation clearance under the traced shoulder cap
+
+## Latest verification
+
+Side79 exported and visually checked at 2000 × 1600, Cycles 128 samples, 1m58.18s. SHA256 `82d1d84cb586f1ffa30c66e7f26a90645752cd969065fc31d1d6559e02753d95`. Shoulder depth taper and continuous roof verified; mounts are visible beneath the shell, with the earlier InnerMounts78 close-up supplying limited evidence for the nearest guard tab. The long plain backpack side wall and faceted exhaust exterior remain clear defects. No claim of completed assembly quality.
+
+All three actual79 images are now exported, dimension-checked and inspected. Final versioned79 SHA256 `e58794bf1c1bea06912bb0fa7e621b7890ffa52083b11633028b65d91a0597d5`. Active side camera; no render pending. Current scene retains all traced78 geometry and only the two foundation corner corrections described below. Publication includes both canonicals, versioned79, all three renders and current notes.
+
+Rear79 is saved and visually checked at 2000 × 1600, Cycles 128 samples, 2m11.08s. SHA256 `cf9f77cf8025a39fd312de8c4be70c647ca6a95f18708ac5ddd6422145ef7993`. Rear wing faces are flat and symmetrical, with narrow teal/brass seams. Backpack remains broad, pale and too slab-like, and two gray discs beside the exhausts remain unclassified. These are the next demonstrated defects; no backpack edits yet.
+
+A stale-coordinate double-click in the maximized export dialog unexpectedly saved Rear79 over LOCAL historical `Phantom_Cannons_Rear_Pass10.png`. Caught immediately by modification-time/hash verification. Copied the newly rendered pixels to the correct `Phantom_Shoulders_Rear_Pass79.png`, then restored historical Cannon Rear10 from its unchanged Git copy. Both historical copies match SHA256 `2961fdb68bb91de3917f4135c6dba294836f1df55ff672a39b366f7df61f6446`. Hero79 remains unchanged. No history was lost. Avoid immediate coordinate clicks after the dialog's zoom transition; reacquire and verify the first click separately.
+
+Selected `Verification - Side Assemblies` by actual Outliner row, returned to viewport, activated via CtrlKP0 and verified profile framing. Saved checkpoint SHA256 `e58794bf1c1bea06912bb0fa7e621b7890ffa52083b11633028b65d91a0597d5`; started Side79. No geometry changes since Hero79.
+
+Actual Hero79 was exported and visually inspected at 2000 × 1600, Cycles 128 samples, render time 3m08.59s. The protruding inner foundation is gone and the cap roof is continuous. Image SHA256 `21973a9fa64452f89fb5c496710f75c5d5f9f8e6c0de0b67f3c6633c5a894ca0`. Model before camera changes SHA256 `625920d8d1f0428612f0b1aa7d7a052eeb9ac8445f17b105bc21624ac965fcae`.
+
+Activated the existing `Verification - Rear Assemblies` camera through verified Outliner selection and CtrlKP0, saved, then rendered. No geometry changes after Hero79. Model after rear camera activation SHA256 `2b81b6ab8a7a91bc840cf9f28c288c9fc3fe67ece1df472d9c64ed677cd0376b`. Rear and side exports pending at this note.
+
+Additional UI focus detail: the main window's header can receive typing without changing the intended search field. Do not type until a caret is visible. Scroll inside the editor body before keyboard editor switches. A fresh duplicated window's editor selector worked when ShiftF9 did not: selector (28,44), Outliner (599,99); search (704,44), verified camera row (236,108), then scroll inside body before ShiftF5. Maximized render file dialog was 1374 × 768; reacquiring after zoom and separately clicking filename (593,747) produced a visible caret. Small dialog typing had been ignored. Exported and verified the correct file before starting rear render.
+
+Pass78 was pushed as759d617faf026690d02b6fc9a2794335a433ae64. Remote main verified. BOTH canonicals and all three actual evidence images downloaded from that immutable commit to `/private/tmp/phantom-verify-759d617`, all SHA256matched. Only then began79.
+
+Saved through UI as `checkpoints/Phantom_Shoulders_Pass79_Traced_Root_Roof.blend`. Initial pre-edit SHA256841eb6b5ae4a97f92a18b56d201767151801d2d09ff522d1bd46462e8230ec8b. A stale-coordinate SaveAs attempt accidentally selected/saved the LOCAL assembly canonical with unchanged78 geometry/UI state, SHA256c83067de32de1bb343c9522978bcc125d73d532add55e65febf577fc4fad8001. After the79 file was correctly named/saved and its path verified, restored that local assembly canonical from the published108a5c78 checkpoint. The local approved root torso file was never touched; both Git canonicals remain108a5c78.
+
+## Actual contributor identified — do not rebuild93 blindly
+
+The rough root-roof wedge in Hero78 was initially suspected to be a distorted93 roof. Clicked the visible projecting surface in the actual hero solid view with overlays hidden. Reenabled overlays using ShiftAltZ and verified the selected object was **06 Graphite - shoulder armor foundations**, not93. Thus preserved the traced93 cap and corrected its internal foundation clearance instead. Published78 notes describing a possible93 rebuild are superseded by this positive identification.
+
+Set TransformOrientation toGLOBAL through comma pie,choice4 (Normal ischoice2). Isolated06, front orthographic, EditVertexXray. Selected complete inner-upper root corner group; Globalmedian(1.2757,.11,8.0623). GZ-.12. Selected next upper contour group, Globalmedian(1.691,.11,8.1619). GZ-.08. Outer tip and all lower foundation vertices left fixed, preserving fascia/recess/guard-tab fit. All outside normals recalculated. Exited Edit/Local, returned to actual hero camera, disabled Xray and overlays; solid hero view shows continuous cap roof with protruding foundation removed. Saved79 and started actual2000x1600/128Cycles Hero79 render. Export pending. No93 rebuild or backpack edits.
+
+## Control details
+
+After rendering, older secondary windows can reject coordinate actions withnoWindowsAvailable while AX menus/keyboard continue. Exiting native fullscreen in the ImageEditor via AX Window>ExitFullScreen restored a normal983x768 render window but did not by itself restore the older3Dwindow. Reliable workaround requires selecting the **MAIN named project window** via AX Window menu, not a secondary3DViewport. In main window,Tab exited EditMode and F3 Duplicate Area into New Window was available. This command is unavailable in secondary windows, explaining failed searches there. Duplicated the main viewport and reacquired it. New working viewport1440x758; clicks,scroll,boxdrag work. Render now opens in a window with standard titlebar, not nativefullscreen. Avoid entering nativefullscreen when exporting.
+
+Small1059x631 model-save dialog works with fresh state, filename(471,610), a separate first click with visiblecaret, then CmdA/type/Return, verifyfilename, Save(986,610). Do not blindly reuse maximized-file-dialog coordinates; a stale-click79attempt selected a list entry instead. SaveAs correct79 final path was verified on disk and later AX mainwindow title. Current orientationGlobal. Current selectedobject06, ObjectMode, hero cameraactive, no LocalView/Xray/overlays. Actual Hero79 render pending.

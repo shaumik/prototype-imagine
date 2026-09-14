@@ -1,4 +1,10 @@
-# Phantom assembly refinement — Pass78, unfinished checkpoint
+# Phantom assembly refinement — Pass79, unfinished checkpoint
+
+Current saved model: [Phantom_Shoulders_Pass79_Traced_Root_Roof.blend](checkpoints/Phantom_Shoulders_Pass79_Traced_Root_Roof.blend). Direct reference tracing corrected the shoulder cap slope in Pass78. Pass79 positively identified the rough projecting roof surface as the internal foundation, then lowered only its two upper root corners beneath the cap. The traced cap itself was preserved.
+
+Actual [hero79](renders/Phantom_Shoulders_Hero_Pass79.png), [rear79](renders/Phantom_Shoulders_Rear_Pass79.png) and [side79](renders/Phantom_Shoulders_Side_Pass79.png) verify the continuous roof, clean wing faces and depth taper at 2000 × 1600, Cycles 128 samples. Read [PASS79_NOTES.md](PASS79_NOTES.md) for precise changes, evidence, hashes and remaining work. Both canonical publication paths match the versioned79 checkpoint. The model remains unfinished: the backpack is pale, broad and slab-like; its gray discs require identification, and its rear and side silhouette need comparison with the original guide and generated Study20.
+
+## Historical Pass78 checkpoint
 
 Current saved model: [Phantom_Shoulders_Pass78_Mount_Verification.blend](checkpoints/Phantom_Shoulders_Pass78_Mount_Verification.blend), matching both canonical publication paths. The user requested direct reference-overlay tracing. This exposed and corrected the shoulder root cap's flat, overly high inner roof contour. The wing now follows the brass fascia with a narrow seam. Actual [hero78](renders/Phantom_Shoulders_Hero_Pass78.png) verifies the current shape at2000x1600/128Cycles, but exposes a rough cap roof transition that must be rebuilt. This is a recoverable work checkpoint, not a finished model.
 

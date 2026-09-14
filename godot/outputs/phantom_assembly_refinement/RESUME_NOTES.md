@@ -1,5 +1,15 @@
 # Phantom assembly refinement — session history and restart notes
 
+## Current state — September 13, Pass79
+
+Resume from `checkpoints/Phantom_Shoulders_Pass79_Traced_Root_Roof.blend`, matching both canonical publication paths. Full precise state and export recovery are in [PASS79_NOTES.md](PASS79_NOTES.md). Hero79, Rear79 and Side79 are all exported and visually checked at 2000 × 1600, Cycles 128 samples. Current model SHA256 `e58794bf1c1bea06912bb0fa7e621b7890ffa52083b11633028b65d91a0597d5`, active `Verification - Side Assemblies`; no render pending. No geometry changes since Hero79. Pass79 publication is prepared; verify remote commit/content before substantial further geometry. Previously verified main: `759d617faf026690d02b6fc9a2794335a433ae64` (Pass78).
+
+Pass79 corrected **06 Graphite - shoulder armor foundations**, positively picked as the surface protruding through the cap. Global root upper corner median (1.2757, .11, 8.0623) moved Z −.12; next upper contour median (1.691, .11, 8.1619) moved Z −.08. Outer tip/lower vertices fixed; normals recalculated. This supersedes the Pass78 hypothesis that93 needed rebuilding. Preserve93's traced roof and85's flattened faces.
+
+After publishing/verifying79, save a fresh backpack checkpoint, identify both gray discs from the actual scene, and use rear/side reference overlays to reshape the broad pale backpack. Study20 is supplementary: original three cyan strips override its contradictory rear two strips. Keep approved torso and helmet unchanged. Do all Blender work through its interface.
+
+**Everything below is historical.** Its older “current” headings are superseded by this section.
+
 **Current state: paused safely after Pass29 modeling and the Pass30 recovery checkpoint.** Start with [README.md](README.md) and the final **PAUSE REQUEST — September7 night** section at the end of this file. Earlier active-state headings below are historical and may describe discarded or superseded work. Front29, Rear29, and Hero29 are saved; the latest side export must be regenerated. The working model and Pass30 checkpoint are identical. GitHub publication updates the repository's canonical editable model while preserving the approved source checkpoint.
 
 ## Latest active state — September 7, 2026, after shoulder Pass15
