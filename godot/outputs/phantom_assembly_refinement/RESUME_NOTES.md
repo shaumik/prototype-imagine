@@ -1,6 +1,14 @@
 # Phantom assembly refinement — session history and restart notes
 
-## Current state — September 13, Pass79
+## Current state — September 13, Pass80
+
+Resume from `checkpoints/Phantom_Backpack_Pass80_Traced_Housing.blend`, matching local assembly canonical and BOTH Git canonical paths. Current saved hash `63313bba33d3bc5009ecb32df9470eb31923726d1a12c7add7f85d6121f07fb9`. Exact geometry, material edits, overlays, camera and render-export recovery are in [PASS80_NOTES.md](PASS80_NOTES.md). Rear80, Side80 and CloseRear80 are exported, opened and verified at2000×1600/128Cycles. Active new `Verification - Backpack Close Rear Pass80` (Camera.016), location(5,8,8.2), Euler(83.4,0,143.7), ortho3.6. No render pending. CloseRear80 remains in RenderResult and is safely exported.
+
+Retained80: removed only the obsolete two-disc85 Black exhaust-interiors object; shaped53 raised rear face and lowered its top .12 from rear overlay; moved53 rear vertices plus all attached backpack detailsY−.3 from side overlay, preserving53 front mounting surface and upper cannon lamps in shared58; inset/extruded87 outer side panels .035/−.018 symmetrically; created backpack-only teal #243F49FF, metallic.42/roughness.62/coat0 for87slot0/90slot0/53slot1; applied30° AutoSmooth to84 exhaust walls. Preserved approved torso/helmet, shoulder79 and cannon51 geometry. Existing references unchanged; new rear alignment reference is documented precisely.
+
+Next: publish80 with BOTH canonical paths and remotely verify its file hashes before substantial81 geometry. Then correct the pale backpack side highlight and simplified central core roof/side transitions. Study21 clarifies angled layers but reject its enlarged cannon brackets/taller grille; original guide remains authority. CloseRear80 verifies round exhaust walls, dark mouths, actual side-panel recess, grille spacing and pod seating; rear cross-shaft barrel surfaces are visibly faceted, which needs correction when rechecking attachments. Recheck concealed cavity clearance, inner cannon/pivot details and combined fit. Do all Blender work through UI. Latest fully verified main before80: `d6b7fc36424d08cfbf7dd9aaf702e93560818c84` (both79 canonicals and three actual renders downloaded back and matched).
+
+## Historical state — Pass79
 
 Resume from `checkpoints/Phantom_Shoulders_Pass79_Traced_Root_Roof.blend`, matching both canonical publication paths. Full precise state and export recovery are in [PASS79_NOTES.md](PASS79_NOTES.md). Hero79, Rear79 and Side79 are all exported and visually checked at 2000 × 1600, Cycles 128 samples. Current model SHA256 `e58794bf1c1bea06912bb0fa7e621b7890ffa52083b11633028b65d91a0597d5`, active `Verification - Side Assemblies`; no render pending. No geometry changes since Hero79. Pass79 publication is prepared; verify remote commit/content before substantial further geometry. Previously verified main: `759d617faf026690d02b6fc9a2794335a433ae64` (Pass78).
 

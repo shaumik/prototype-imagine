@@ -1,4 +1,10 @@
-# Phantom assembly refinement — Pass79, unfinished checkpoint
+# Phantom assembly refinement — Pass80, unfinished checkpoint
+
+Current saved model: [Phantom_Backpack_Pass80_Traced_Housing.blend](checkpoints/Phantom_Backpack_Pass80_Traced_Housing.blend). Rear and side overlays of the original construction guide were used to narrow the core, lower its top and reduce rearward depth while keeping the torso mounting surface fixed. The pods have real outer side recesses and a separate darker teal finish. The two obsolete gray discs were identified and removed; the hollow exhausts now have smooth walls and sharp rims.
+
+Actual [rear80](renders/Phantom_Backpack_Rear_Pass80.png), [side80](renders/Phantom_Backpack_Side_Pass80.png) and [close rear80](renders/Phantom_Backpack_Close_Rear_Pass80.png) are exported and verified at2000×1600, Cycles128. Read [PASS80_NOTES.md](PASS80_NOTES.md) for exact edits, reference alignment, generated Study21 critique and hashes. The model is unfinished: the central housing transitions remain simple and the pod side highlight is still too pale. Further upper attachment, concealed recess and combined-fit checks remain necessary.
+
+## Historical Pass79 checkpoint
 
 Current saved model: [Phantom_Shoulders_Pass79_Traced_Root_Roof.blend](checkpoints/Phantom_Shoulders_Pass79_Traced_Root_Roof.blend). Direct reference tracing corrected the shoulder cap slope in Pass78. Pass79 positively identified the rough projecting roof surface as the internal foundation, then lowered only its two upper root corners beneath the cap. The traced cap itself was preserved.
 
