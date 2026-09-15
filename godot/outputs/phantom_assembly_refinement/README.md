@@ -1,4 +1,10 @@
-# Phantom assembly refinement — Pass81, unfinished checkpoint
+# Phantom assembly refinement — Pass82, unfinished checkpoint
+
+Current saved model: [Phantom_Backpack_Pass82_Angled_Core.blend](checkpoints/Phantom_Backpack_Pass82_Angled_Core.blend). Original-guide overlay comparison informed the clipped graphite core corners and shallow raised chamfer. Both lower cannon-support shafts were rebuilt at their measured original bounds with smooth walls and narrow end bevels; the retained bearings and uprights stay in place. Approved torso and helmet are preserved.
+
+Actual [close rear82](renders/Phantom_Backpack_Close_Rear_Pass82.png) is exported, opened and verified at2000×1600, Cycles128. The side82 render is complete in Blender Render but not yet exported because the Mac locked; rear82 is pending. Read [PASS82_NOTES.md](PASS82_NOTES.md) for exact retained geometry, rejected trials, hashes, generated Study22 critique and restart state. The model remains unfinished: the core roof has uneven shading, the power symbol is faceted, and concealed attachments and combined fit still require inspection. Generated studies are references, not actual-model evidence.
+
+## Historical Pass81 checkpoint
 
 Current saved model: [Phantom_Backpack_Pass81_Surface_Transitions.blend](checkpoints/Phantom_Backpack_Pass81_Surface_Transitions.blend). Pass81 corrects the pale backpack lighting: a separate weaker rim illuminates exactly its nine mesh objects, while the original rim preserves the rest of the scene. Retained geometry is Pass80, shaped against original-guide rear/side overlays; shoulder tracing through79 remains intact.
 

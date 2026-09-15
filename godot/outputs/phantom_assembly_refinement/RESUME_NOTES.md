@@ -1,12 +1,22 @@
 # Phantom assembly refinement — session history and restart notes
 
-## Current state — September 13, Pass81
+## Current state — September 14, Pass82
+
+Resume the live Blender scene before replacing RenderResult. The side82 render is COMPLETE (1m41.34s) but NOT EXPORTED. The Mac locked during the export attempt; CUA explicitly reported failed automatic unlock. After manual unlock, save `renders/Phantom_Backpack_Side_Pass82.png`, verify its exact path,2000×1600 dimensions and pixels, then render/export Rear82. No render is currently pending. Current live active camera is Side Assemblies; the saved82 file has CloseRear80 active. Geometry is fully saved.
+
+Current versioned model `checkpoints/Phantom_Backpack_Pass82_Angled_Core.blend` and TrialB backup hash `6dbe6f91995861374c60fd90dc318ae218bcf47a86df4c1a8eec50644749f092`. Publication82 updates local assembly canonical and BOTH Git canonicals to that saved hash. Actual CloseRear82 hash `c3ecad5864397a9d3eb59b6b0ae53e4b2af45269f216c212517b4911814e70b2`,2000×1600,Cycles128,4m22.35s; exported and pixels inspected. Generated Study22 hash `c4997aaf372fca4dfa476038f0968dd5eee50b316cecc699e0c39fe44ee56fd9`, known inaccurate inner-view claim and enlarged-support details rejected. See [PASS82_NOTES.md](PASS82_NOTES.md).
+
+Retained82:53 clipped raised-core corners with vertex bevel.12/1seg, inset.025/depth+.03, existing structural graphite assigned without material-value edits. New97 contains two rebuilt lower trunnion shafts at measured bounds centers(1.0225,.84,7.73) and(-1.3025,.84,7.73), each dimensions(1,.714,.714), native32-vertex cylinders with smooth walls and only end-loop bevel.008/3seg. Original54 bearings/uprights retained; old connected barrel shells removed. No lighting/material-value changes82. Failed whole54 normal/smoothing trials were fully reverted before reconstruction. Main1374×768 UI pointer offset: add about196 to desired X; file dialogs/render windows use their normal coordinates. Recalibrate via native B crosshair after window geometry changes.
+
+Next: remotely verify publication82, export existing Side82, render Rear82, then correct the core roof's uneven shading and faceted power symbol. Inspect genuinely concealed cannon/pivot backing, shoulder mounting tabs and combined fit. No finished-quality claim. Approved local root torso remains unchanged at `2da7a2e05bd5afdfa585c5f5299be445180f3a5d24bfc2d94787de2319d37f89`.
+
+## Historical state — September 13, Pass81
 
 Resume from `checkpoints/Phantom_Backpack_Pass81_Surface_Transitions.blend`, matching local assembly canonical and BOTH Git canonicals. SHA256 `d524b809096c597ee511fb72572c917081d7b7b1cec55b42ee9a7604acaaf5ba`. Retained81 is lighting only despite its initial filename. Studio Rim3000 excludes exactly nine added backpack objects53/56/57/84Steel/87/88/89/90/91, preserving its old exclusions. New independent `Backpack Rim - balanced Pass81`, Area.009, same transform,750 power, includes ONLY those nine. Both receiver lists and new750 verified through UI. Approved torso/helmet/materials preserved. Exact state and discarded54 shading experiments in [PASS81_NOTES.md](PASS81_NOTES.md).
 
 Rear81, Side81, CloseRear81 all exported to correct paths, opened and verified2000×1600/Cycles128. The pale highlights are controlled in all views. Active `Verification - Rear Assemblies`; no render pending, Rear81 safely exported. All support shading/geometry trials were fully reverted before lighting work;54 faceting remains. Central surround behind the octagonal brass frame is still too rectangular, and upper/side transitions need original-overlay shaping. Concealed cavity backing and true inner cannon/pivot/combined-fit checks remain. Supplementary Study21 is guidance only; original guide remains authority.
 
-Publication81 prepared. Verify remote main and both canonical/three-render immutable file hashes before substantial82 geometry. Latest fully verified main before81 is `0cfc4424b5fa50bfab28cab01f434bc272539d33`; both80 canonical models, three80 renders and generated Study21 downloaded back and every hash matched before81 began. Do all Blender work through UI. Local approved root torso untouched.
+Publication81 completed and remotely verified at `b7f533e0ebe9579fd36b4c3f92722a37a1f818d8`. Both canonical models and three actual81 renders downloaded from that immutable commit into `/private/tmp/phantom-verify-b7f533e`; every hash matched before substantial82 geometry. Remote main was rechecked at81 before82 publication. Earlier fully verified main80 is `0cfc4424b5fa50bfab28cab01f434bc272539d33`; both80 canonical models, three80 renders and generated Study21 also downloaded back and every hash matched. Do all Blender work through UI. Local approved root torso untouched.
 
 ## Historical state — Pass80
 
