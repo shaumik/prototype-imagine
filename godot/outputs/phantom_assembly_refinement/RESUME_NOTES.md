@@ -1,6 +1,14 @@
 # Phantom assembly refinement — session history and restart notes
 
-## Current state — September 13, Pass80
+## Current state — September 13, Pass81
+
+Resume from `checkpoints/Phantom_Backpack_Pass81_Surface_Transitions.blend`, matching local assembly canonical and BOTH Git canonicals. SHA256 `d524b809096c597ee511fb72572c917081d7b7b1cec55b42ee9a7604acaaf5ba`. Retained81 is lighting only despite its initial filename. Studio Rim3000 excludes exactly nine added backpack objects53/56/57/84Steel/87/88/89/90/91, preserving its old exclusions. New independent `Backpack Rim - balanced Pass81`, Area.009, same transform,750 power, includes ONLY those nine. Both receiver lists and new750 verified through UI. Approved torso/helmet/materials preserved. Exact state and discarded54 shading experiments in [PASS81_NOTES.md](PASS81_NOTES.md).
+
+Rear81, Side81, CloseRear81 all exported to correct paths, opened and verified2000×1600/Cycles128. The pale highlights are controlled in all views. Active `Verification - Rear Assemblies`; no render pending, Rear81 safely exported. All support shading/geometry trials were fully reverted before lighting work;54 faceting remains. Central surround behind the octagonal brass frame is still too rectangular, and upper/side transitions need original-overlay shaping. Concealed cavity backing and true inner cannon/pivot/combined-fit checks remain. Supplementary Study21 is guidance only; original guide remains authority.
+
+Publication81 prepared. Verify remote main and both canonical/three-render immutable file hashes before substantial82 geometry. Latest fully verified main before81 is `0cfc4424b5fa50bfab28cab01f434bc272539d33`; both80 canonical models, three80 renders and generated Study21 downloaded back and every hash matched before81 began. Do all Blender work through UI. Local approved root torso untouched.
+
+## Historical state — Pass80
 
 Resume from `checkpoints/Phantom_Backpack_Pass80_Traced_Housing.blend`, matching local assembly canonical and BOTH Git canonical paths. Current saved hash `63313bba33d3bc5009ecb32df9470eb31923726d1a12c7add7f85d6121f07fb9`. Exact geometry, material edits, overlays, camera and render-export recovery are in [PASS80_NOTES.md](PASS80_NOTES.md). Rear80, Side80 and CloseRear80 are exported, opened and verified at2000×1600/128Cycles. Active new `Verification - Backpack Close Rear Pass80` (Camera.016), location(5,8,8.2), Euler(83.4,0,143.7), ortho3.6. No render pending. CloseRear80 remains in RenderResult and is safely exported.
 

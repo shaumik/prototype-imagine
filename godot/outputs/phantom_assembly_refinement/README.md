@@ -1,4 +1,10 @@
-# Phantom assembly refinement — Pass80, unfinished checkpoint
+# Phantom assembly refinement — Pass81, unfinished checkpoint
+
+Current saved model: [Phantom_Backpack_Pass81_Surface_Transitions.blend](checkpoints/Phantom_Backpack_Pass81_Surface_Transitions.blend). Pass81 corrects the pale backpack lighting: a separate weaker rim illuminates exactly its nine mesh objects, while the original rim preserves the rest of the scene. Retained geometry is Pass80, shaped against original-guide rear/side overlays; shoulder tracing through79 remains intact.
+
+Actual [rear81](renders/Phantom_Backpack_Rear_Pass81.png), [side81](renders/Phantom_Backpack_Side_Pass81.png) and [close rear81](renders/Phantom_Backpack_Close_Rear_Pass81.png) were exported, opened and verified at2000×1600, Cycles128. Read [PASS81_NOTES.md](PASS81_NOTES.md) for exact links, discarded support shading trials and hashes. The model remains unfinished: the central housing surround is too rectangular, cannon-support barrels are faceted, and concealed cavity/attachment and combined-fit checks remain.
+
+## Historical Pass80 checkpoint
 
 Current saved model: [Phantom_Backpack_Pass80_Traced_Housing.blend](checkpoints/Phantom_Backpack_Pass80_Traced_Housing.blend). Rear and side overlays of the original construction guide were used to narrow the core, lower its top and reduce rearward depth while keeping the torso mounting surface fixed. The pods have real outer side recesses and a separate darker teal finish. The two obsolete gray discs were identified and removed; the hollow exhausts now have smooth walls and sharp rims.
 
