@@ -4,6 +4,8 @@ Current saved model: [Phantom_Backpack_Pass82_Angled_Core.blend](checkpoints/Pha
 
 Actual [close rear82](renders/Phantom_Backpack_Close_Rear_Pass82.png) is exported, opened and verified at2000×1600, Cycles128. The side82 render is complete in Blender Render but not yet exported because the Mac locked; rear82 is pending. Read [PASS82_NOTES.md](PASS82_NOTES.md) for exact retained geometry, rejected trials, hashes, generated Study22 critique and restart state. The model remains unfinished: the core roof has uneven shading, the power symbol is faceted, and concealed attachments and combined fit still require inspection. Generated studies are references, not actual-model evidence.
 
+Pass82's saved geometry, both canonicals, actual close-up and generated Study22 were published in [commit8b5dfb6](https://github.com/shaumik/prototype-imagine/commit/8b5dfb66b75d36834a87160fd15e282ba733318f). All eight published files were downloaded from that immutable commit and matched the local files byte for byte. The remaining side/rear verification is still pending as described above.
+
 ## Historical Pass81 checkpoint
 
 Current saved model: [Phantom_Backpack_Pass81_Surface_Transitions.blend](checkpoints/Phantom_Backpack_Pass81_Surface_Transitions.blend). Pass81 corrects the pale backpack lighting: a separate weaker rim illuminates exactly its nine mesh objects, while the original rim preserves the rest of the scene. Retained geometry is Pass80, shaped against original-guide rear/side overlays; shoulder tracing through79 remains intact.
